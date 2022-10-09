@@ -1,0 +1,101 @@
+:root {
+  --cyan: hsl(171, 66%, 44%);
+  --lblue: hsl(233, 100%, 69%);
+  --dblue: hsl(210, 10%, 33%);
+  --gblue: hsl(201, 11%, 66%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+#hero {
+  margin: 60px auto;
+}
+#track {
+  margin-bottom: 100px;
+}
+#access {
+  margin-bottom: 100px;
+}
+p {
+  margin-bottom: 20px;
+}
+.btn {
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 25px;
+}
+.btn:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+.iOS {
+  background-color: var(--cyan);
+  border-bottom: 2px solid hsl(170, 57%, 40%);
+}
+.mac {
+  background-color: var(--lblue);
+  border-bottom: 2px solid hsl(233, 23%, 49%);
+}
+.logos {
+  width: 50%;
+  margin: 10px auto;
+}
+#company {
+  margin-bottom: 100px;
+}
+.items:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+  #logo {
+    width: 40%;
+  }
+  .svgs {
+    width: 15%;
+  }
+  h1 {
+    font-size: 20px;
+    color: var(--dblue);
+  }
+  h2 {
+    margin: 20px;
+    font-size: 16px;
+  }
+  p {
+    color: var(--gblue);
+    font-size: 12px;
+  }
+  main {
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .images {
+    width: 100%;
+  }
+  #footerlogo {
+    width: 15%;
+  }
+  #footer {
+    margin-top: 100px;
+    color: var(--dblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .items {
+    margin: 10px;
+    font-size: 12px;
+  }
+  .socialicons{
+    margin:20px 10px;
+    width: 15px;
+  }
+}
