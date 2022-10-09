@@ -140,8 +140,9 @@ main {
 }
 @media screen and (max-width: 400px) {
     body{
-        background-image: url(./images/bg-header-mobile.png);
+        background-image: url(./images/bg-header-desktop.png);
         background-repeat: no-repeat;
+        width: 100%;
     }
   #logo {
     width: 40%;
