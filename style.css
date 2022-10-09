@@ -10,6 +10,21 @@
   box-sizing: border-box;
   font-family: "Bai Jamjuree", sans-serif;
 }
+section {
+  width: 80%;
+  margin: auto;
+}
+.images {
+  width: 60%;
+}
+h1 {
+  font-size: 20px;
+  color: var(--dblue);
+}
+h2 {
+  margin: 20px;
+  font-size: 16px;
+}
 #hero {
   margin: 60px auto;
 }
@@ -30,6 +45,7 @@ p {
   width: 100%;
   margin: 10px;
   border-radius: 25px;
+  width: 200px;
 }
 .btn:hover {
   opacity: 80%;
@@ -52,30 +68,93 @@ p {
 }
 .items:hover {
   cursor: pointer;
+text-decoration: underline;
+}
+.socialicons:hover{
+    cursor: pointer;
+}
+
+main {
+  /* width: 80%; */
+  text-align: center;
+  margin: 20px auto;
+}
+.buttons {
+}
+@media screen and (min-width: 401px) {
+    body{
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+    }
+  .twoparts {
+    display: flex;
+    margin-top: 50px;
+  }
+  #computer {
+    height: fit-content;
+    margin: auto;
+    margin-right: 20px;
+    /* margin-left: -20%; */
+  }
+  .work {
+    display: flex;
+    margin-top: 50px;
+  }
+  #company {
+    margin-top: 50px;
+    display: flex;
+  }
+  .logos {
+    width: 10%;
+    height: fit-content;
+  }
+  #downbuttons {
+    width: 50%;
+  }
+  #footerlogo {
+    width: 50px;
+  }
+  #footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 30px auto;
+  }
+
+  footer {
+    display: none   ;
+  }
+  .footlinks {
+    width: 40%;
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-start;
+  }
+  .socialicons{
+    margin: 10px;
+  }
+  .items {
+    margin: 20px;
+  }
 }
 @media screen and (max-width: 400px) {
+    body{
+        background-image: url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+    }
   #logo {
     width: 40%;
+  }
+  .btn {
+    width: 100%;
   }
   .svgs {
     width: 15%;
   }
-  h1 {
-    font-size: 20px;
-    color: var(--dblue);
-  }
-  h2 {
-    margin: 20px;
-    font-size: 16px;
-  }
   p {
     color: var(--gblue);
     font-size: 12px;
-  }
-  main {
-    width: 80%;
-    text-align: center;
-    margin: 20px auto;
   }
   .images {
     width: 100%;
@@ -94,8 +173,8 @@ p {
     margin: 10px;
     font-size: 12px;
   }
-  .socialicons{
-    margin:20px 10px;
+  .socialicons {
+    margin: 20px 10px;
     width: 15px;
   }
 }
